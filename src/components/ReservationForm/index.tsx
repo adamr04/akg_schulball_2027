@@ -115,18 +115,18 @@ export const ReservationForm = () => {
 
         <h3>ONLINE Kartenbestellung</h3>
         <p>
-          Supervorverkauf: 29. Sept 2025 bis 31. Dez 2025<br></br>
-          Vorverkauf: 1. Jan 2026 bis 18. Mai 2026
+          Supervorverkauf: 1. Nov 2026 bis 31. Dez 2026<br></br>
+          Vorverkauf: 1. Jan 2027 bis 18. Mai 2027
         </p>
         <p>Alle ONLINE gekauften Karten können an den Vorverkaufstagen in der Schule abgeholt werden,
-           bzw. direkt an der Abendkasse am 22. Mai 2026 entgegengenommen werden.<br></br>
+           bzw. direkt an der Abendkasse am 21. Mai 2027 entgegengenommen werden.<br></br>
           <br></br>
         </p>
         <h3>Karten Vorkauf und Abholung bezahlter Ballkarten in der Schule</h3>
         <b><u>WANN?</u></b>
         <p>
-        an jedem Mittwoch nach den Osterferien beginnend am 8. April 2026, von 09:45 bis 11:05<br></br>
-        Letzter Verkaufstag in der Schule: 20. Mai 2026
+        an jedem Mittwoch nach den Osterferien beginnend am 31. März 2027, von 09:45 bis 11:05<br></br>
+        Letzter Verkaufstag in der Schule: 19. Mai 2027
         </p>
   
         <b><u>WO?</u></b>
@@ -142,8 +142,8 @@ export const ReservationForm = () => {
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 40,– (Supervorverkaufsbonus vom 17. Okt bis 31. Dez 2025)
-                  <br />€ 45,– (Vorverkauf. 1. Jan bis 14. Mai 2026)
+                  € 40,– (Supervorverkaufsbonus vom 1. Nov bis 31. Dez 2026)
+                  <br />€ 45,– (Vorverkauf. 1. Jan bis 14. Mai 2027)
                   <br />€ 50,– (Abendkassa)
                 </div>
                 <div className="text-sm mt-2">
@@ -153,12 +153,12 @@ export const ReservationForm = () => {
             </div>
             <div className="sm:col-span-1">
               <dt>
-                <div className="text-lg font-semibold">Regulärer Ka rtenpreis</div>
+                <div className="text-lg font-semibold">Regulärer Kartenpreis</div>
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 50,– (Supervorverkaufsbonus 1. Okt bis 31. Dez 2025)
-                  <br />€ 55,– (Vorverkauf 1. Jan bis 14. Mai 2026)
+                  € 50,– (Supervorverkaufsbonus 1. Nov bis 31. Dez 2026)
+                  <br />€ 55,– (Vorverkauf 1. Jan bis 14. Mai 2027)
                   <br />€ 60,– (Abendkassa)
                 </div>
               </dd>
@@ -167,7 +167,7 @@ export const ReservationForm = () => {
         </section>
         <h2>Tischplatzkarten</h2>
         <p>
-          <b>€ 20,– (Vorverkauf 17. Okt 2024 bis 14. Mai 2025)
+          <b>€ 20,– (Vorverkauf 1. Nov 2026 bis 14. Mai 2027)
             <br/ >€ 30,– (Abendkasse, je nach Verfügbarkeit)</b> <br />
           Sie wollen mehrere Tischplatzkarten gleichzeitig erwerben und wollen zusammensitzen?
           Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an 1001nacht@schulball-akg.at

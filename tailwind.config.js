@@ -50,22 +50,22 @@ module.exports = {
               fontWeight: "700",
               letterSpacing: theme("letterSpacing.tight"),
               color: theme("colors.fg"),
-              fontFamily: "Playfair Display",
+              fontFamily: "Grenze Gotisch",
             },
             h2: {
               fontWeight: "700",
               letterSpacing: theme("letterSpacing.tight"),
               color: theme("colors.fg"),
-              fontFamily: "Playfair Display",
+              fontFamily: "Grenze Gotisch",
             },
             h3: {
               fontWeight: "700",
-              fontFamily: "Playfair Display",
+              fontFamily: "Grenze Gotisch",
               color: theme("colors.fg"),
             },
             "h4,h5,h6": {
               fontWeight: "600",
-              fontFamily: "Playfair Display",
+              fontFamily: "Grenze Gotisch",
               color: theme("colors.fg"),
             },
             details: {
@@ -103,7 +103,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Josefin Sans", ...defaultTheme.fontFamily.sans],
-        display: ["Playfair Display", ...defaultTheme.fontFamily.sans],
+        display: ["Grenze Gotisch", "Playfair Display", ...defaultTheme.fontFamily.serif],
+        fraktur: ["UnifrakturMaguntia", "Grenze Gotisch", ...defaultTheme.fontFamily.serif],
       },
       gridTemplateColumns: {
         blog: "1fr min(600px, 100%) 1fr",

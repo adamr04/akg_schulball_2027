@@ -9,18 +9,22 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-        <Seo title="47. Schulball Akademisches Gymnasium Wien" />
+        <Seo title="48. Schulball Akademisches Gymnasium Wien" />
       <Hero
-        title="1001 NACHT"
-        date="22. Mai 2026"
-        location="Palais Niederösterreich"
+        title="A (K)Night to Remember"
+        date="21. Mai 2027"
+        location="Palais Ferstel"
         cover={"@/images/cover.jpg"}
       >
         <p>
-          Der 47. Maturaball des Akademischen Gymnasium Wien öffnet am 22. Mai 2026 im Palais Niederösterreich seine Pforten und entführt in die Welt von "1001 Nacht".<br></br> <br></br>
-          Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2026.
+          Der 48. Maturaball des Akademischen Gymnasium Wien öffnet am 21. Mai 2027 im Palais Ferstel seine Pforten und lädt ein zu „A (K)Night to Remember“.<br></br> <br></br>
+          Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2027.
         </p>
         
+        <p className="presaleNote">
+          Der Kartenvorverkauf startet am <strong>1. November 2026</strong>.
+        </p>
+
         {/* Reservation Button */}
         {
         <div style={{ textAlign: 'center', margin: '20px 0' }}>

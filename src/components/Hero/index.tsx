@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, CalloutHeading } from "@/components";
-import coverImg from "../../images/cover.png";
+import coverImg from "../../images/cover-2027.jpg";
 
 import "./Hero.styles.css";
 

@@ -16,20 +16,20 @@
     --color-primary-tint: #e4c155;
     --color-primary-shade: #9a1a15;
     --color-primary-contrast: var(--color-primary-shade);
-    --color-background: #f5f6fa;
-    --color-background-muted: #e7e5fd;
-    --color-background-flash: #ffffff;
-    --color-header-background: 255, 255, 255;
+    --color-background: #f6f0e1; /* Pergament */
+    --color-background-muted: #e9dfc6;
+    --color-background-flash: #fffaf0;
+    --color-header-background: 246, 240, 225;
     --color-text: #101010;
-    --color-text-muted: #545B6F;
+    --color-text-muted: #5b5346;
     --color-focus: #ffdd00;
     --color-text-focus: #000000;
   }
 
   .dark {
     --color-primary-contrast: var(--color-primary-tint);
-    --color-background: #0c0e14;
-    --color-background-muted: #333e48;
+    --color-background: #161814;
+    --color-background-muted: #34362d;
     --color-background-flash: #000;
     --color-header-background: 0, 0, 0;
     --color-text: #fff;
@@ -101,4 +101,9 @@ h2, .h2 {
   .hero-title {
     font-size: 24px; /* Smaller font size for small screens */
   }
+}
+
+/* Hinweis Vorverkaufsstart über dem „Karten kaufen“-Button */
+.hero p.presaleNote {
+  @apply text-center font-semibold mt-8 mb-0;
 }
