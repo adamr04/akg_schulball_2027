@@ -66,7 +66,13 @@ export const ReservationForm = () => {
     (guest) => guest.student === false
   ).length;
   const countTable = guestList.filter((guest) => guest.table === true).length;
-  const totalVVK = countStudent * 45 + countRegular * 55 + countTable * 20;
+  // Supervorverkauf (1. Nov bis 31. Dez 2026): ermäßigt 40,–, regulär 50,–
+  // ab 1. Jan 2027 regulärer Vorverkauf: ermäßigt 45,–, regulär 55,–
+  const isSuperPresale = new Date() < new Date("2027-01-01T00:00:00+01:00");
+  const priceStudentVVK = isSuperPresale ? 40 : 45;
+  const priceRegularVVK = isSuperPresale ? 50 : 55;
+  const totalVVK =
+    countStudent * priceStudentVVK + countRegular * priceRegularVVK + countTable * 20;
   const totalAK = countStudent * 50 + countRegular * 60 + countTable * 30;
   const diff = totalAK - totalVVK;
 
@@ -125,8 +131,8 @@ export const ReservationForm = () => {
         <h3>Karten Vorkauf und Abholung bezahlter Ballkarten in der Schule</h3>
         <b><u>WANN?</u></b>
         <p>
-        an jedem Mittwoch nach den Osterferien beginnend am 31. März 2027, von 09:45 bis 11:05<br></br>
-        Letzter Verkaufstag in der Schule: 19. Mai 2027
+        Live-Verkauf &amp; Abholung in der Schule nach den Osterferien, jeweils zwischen 09:45 und 11:05:<br></br>
+        7., 14., 21. und 28. April 2027 sowie 5., 12. und 19. Mai 2027
         </p>
   
         <b><u>WO?</u></b>
@@ -170,7 +176,7 @@ export const ReservationForm = () => {
           <b>€ 20,– (Vorverkauf 1. Nov 2026 bis 14. Mai 2027)
             <br/ >€ 30,– (Abendkasse, je nach Verfügbarkeit)</b> <br />
           Sie wollen mehrere Tischplatzkarten gleichzeitig erwerben und wollen zusammensitzen?
-          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an 1001nacht@schulball-akg.at
+          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an remember@schulball-akg.at
  <br />
           Wir werden Ihre Bestellung umgehend bearbeiten. < br />
           Vielen Dank!!
